@@ -15,7 +15,7 @@
     />
 
     <!-- Custom SCSS -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="DeStyle.scss" />
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -36,10 +36,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/News-HomePage/HomePage.html">Home</a>
+              <a
+                class="nav-link"
+                href="/reactjs-test/News-HomePage/HomePage.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/NewsPaperList/NewsPaper-List.html"
+              <a
+                class="nav-link"
+                href="/reactjs-test/NewsPaperList/NewsPaper-List.html"
                 >News Type</a
               >
             </li>
@@ -48,18 +54,44 @@
       </div>
     </nav>
 
-    <!-- Content bar -->
-    <div class="container mt-8">
-      <div class="row justify-content-center">
+    <!-- Main Content -->
+    <div class="container mt-4">
+      <div class="row">
         <div class="col-md-8">
+          <div class="card mb-4">
+            <img
+              src="https://via.placeholder.com/800x400"
+              class="card-img-top"
+              alt="News Image"
+            />
+          </div>
+
+          <!-- Detailed News Section -->
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Type News</h5>
+              <h5 class="card-title">Detailed News</h5>
+              <p class="card-text">
+                Detailed information about the news article goes here. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <!-- Sidebar with Latest News -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Latest News</h5>
               <ul class="list-group">
-                <li class="list-group-item">Politics</li>
-                <li class="list-group-item">Business</li>
-                <li class="list-group-item">Technology</li>
-                <li class="list-group-item">Sports</li>
+                <li class="list-group-item">News 1</li>
+                <li class="list-group-item">News 2</li>
+                <li class="list-group-item">News 3</li>
+                <li class="list-group-item">News 4</li>
+                <li class="list-group-item">News 5</li>
               </ul>
             </div>
           </div>
